@@ -22,7 +22,7 @@ export default function Post({ post }) {
             <TiDeleteOutline />
           </span>
         </h5>
-        <p className="card-text">{post.content}</p>
+        <p className="card-text">{post.body}</p>
         {post.tags.map((tag) => {
           return (
             <span key={tag} className="badge text-bg-secondary hashtag">

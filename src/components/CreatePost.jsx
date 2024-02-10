@@ -20,15 +20,15 @@ export default function CreatePost() {
     addNewPost({
       id: userId,
       title: postTitle,
-      content: postContent,
+      body: postContent,
       reactions: postReactions,
       tags: postTags,
     });
-    id.current.value="";
+    id.current.value = "";
     title.current.value = "";
     content.current.value = "";
     reactions.current.value = "";
-    tags.current.value="";
+    tags.current.value = "";
   };
 
   return (
